@@ -1,0 +1,30 @@
+{
+  "name": "vue3test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "dev:dev":"vite --mode dev",
+    "dev:prod":"vite --mode prod",
+    "build:dev": "vue-tsc --noEmit && vite build --mode dev",
+    "build:pord": "vue-tsc --noEmit && vite build --mode pord",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "element-plus": "^2.3.14",
+    "pinia": "^2.1.6",
+    "pinia-plugin-persist": "^1.0.0",
+    "vue": "^3.3.4",
+    "vue-router": "next"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "node-sass": "^9.0.0",
+    "sass": "^1.69.2",
+    "sass-loader": "^13.3.2",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.2",
+    "vite": "^4.4.9"
+  }
+}
