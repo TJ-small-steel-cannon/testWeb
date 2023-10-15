@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "build":"vite build",
     "dev:dev":"vite --mode dev",
     "dev:prod":"vite --mode prod",
     "build:dev": "vue-tsc --noEmit && vite build --mode dev",
