@@ -17,7 +17,7 @@ function getData(){
   <router-link to="/Header" ddd="xxx">Home</router-link>
   <router-link to="/Body">About</router-link>
   <router-view></router-view>
-  <button @click="getData">发送请求44</button>
+  <button @click="getData">发送请求55</button>
 </template>
 
 <style lang="scss" scoped>
